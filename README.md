@@ -1,6 +1,7 @@
 # nextjs-rxjs
 
 Reproduction of an issue in `next@13.5.5` and a CommonJS lib that exports an RxJS Observable.
+- https://github.com/vercel/next.js/issues/56897
 
 ## How to reproduce
 
