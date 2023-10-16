@@ -1,0 +1,20 @@
+{
+  "name": "@nextjs-rxjs/app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@nextjs-rxjs/lib": "workspace:^",
+    "next": "~13.5.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "@types/react": "^18.2.28",
+    "typescript": "^5.2.2"
+  }
+}

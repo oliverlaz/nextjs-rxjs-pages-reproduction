@@ -1,0 +1,11 @@
+{
+  "name": "@nextjs-rxjs/root",
+  "packageManager": "yarn@3.6.4",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:all": "yarn workspaces foreach -vt run build"
+  }
+}
